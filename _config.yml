@@ -1,9 +1,3 @@
-#haml: true
-#sass: true
-#post_defaults:
-#  layout: post
-#  author: code_monkey_steve
-
 remote_theme: mmistakes/minimal-mistakes@4.21.0
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -138,7 +132,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-textile-converter
 
 # mimic GitHub Pages with --safe
 whitelist:
